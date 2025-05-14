@@ -35,7 +35,7 @@
       <div class="presentacion">
         <h1 class="typing-animation">¡Hola! 👋 Soy <span class="nombre-destacado">Sebastián Ortiz</span></h1>
         <h2>Estudiante de Ingeniería de Sistemas</h2>
-        <p class="especializacion">Desarrollador Full Stack con enfoque en soluciones innovadoras</p>
+        <p class="especializacion">Desarrollador con enfoque en soluciones innovadoras</p>
         
         <div class="botones-portada">
           <a href="/doc/Sebastian Ortiz.pdf" download class="boton-cv">
@@ -102,8 +102,8 @@
                 <span>TypeScript</span>
               </div>
               <div class="tarjeta-habilidad">
-                <i class="devicon-vuejs-plain colored"></i>
-                <span>Vue.js</span>
+                <img src="/img/laravel.png" alt="Laravel" style="width: 50px; height: 50px;"></i>
+                <span>Laravel</span>
               </div>
             </div>
           </div>
@@ -157,21 +157,21 @@
                 <span>GitHub</span>
               </div>
               <div class="tarjeta-habilidad">
-                <i class="devicon-gitlab-plain colored"></i>
-                <span>GitLab</span>
-              </div>
-              <div class="tarjeta-habilidad">
                 <i class="devicon-postman-plain colored"></i>
                 <span>Postman</span>
               </div>
               <div class="tarjeta-habilidad">
-                <i class="devicon-scrum-plain"></i>
+                <img src="/img/scrum.svg" alt="Scrum" style="width: 50px; height: 50px;">
                 <span>Scrum</span>
               </div>
               <div class="tarjeta-habilidad">
                 <i class="devicon-trello-plain colored"></i>
                 <span>Kanban</span>
               </div>
+              <div class="tarjeta-habilidad">
+              <img src="/img/powerBi.png" alt="Power BI" style="width: 50px; height: 50px;">
+              <span>Power BI</span>
+            </div>
             </div>
           </div>
         </div>
@@ -194,7 +194,7 @@
             Experiencia en equipos de trabajo y buen manejo de metodologia.
           </p>  
           <ul class="materias-lista">
-            <li>Bases de Datos</li>
+            <li>Analisis de Datos</li>
             <li>Desarrollo Web</li>
             <li>Arquitectura de Software</li>
             <li>Seguridad Informática</li>
@@ -204,21 +204,63 @@
     </div>
   </section>
 
-  <section id="proyectos">
-    <h2>Proyectos Destacados</h2>
+  <section id="proyectos" class="seccion-proyectos">
+  <h2>Proyectos Destacados</h2>
+  <p>Estos son unos de los proyectos de muchos en los cuales he trabajado.</p>
+  
+  <div class="contenedor-proyectos">
+    <!-- Proyecto 1 -->
     <div class="proyecto">
-      <h3>Dashboard IA</h3>
-      <p>Aplicación web que visualiza resultados de modelos de IA usando Angular y Python en el backend.</p>
+      <div class="imagen-proyecto">
+        <img src="/img/audia.jpg" alt="Captura del Dashboard IA" loading="lazy">
+      </div>
+      <div class="contenido-proyecto">
+        <h3>AudIA</h3>
+        <p>Aplicación web que permite a los usuarios crear melodias mediante una libreria, podra eliminar, agregar y crear.</p>
+        <div class="tecnologias">
+          <span>Next.js</span>
+          <span>JavaScript</span>
+          <span>Firebase</span>
+        </div>
+        <a href="https://github.com/Dagus21/AudiA.git" class="boton-ver" target="_blank">Ver proyecto</a>
+      </div>
     </div>
+
+    <!-- Proyecto 2 -->
     <div class="proyecto">
-      <h3>Portafolio Web</h3>
-      <p>Este portafolio como muestra de mis habilidades en HTML, CSS y JavaScript puro.</p>
+      <div class="imagen-proyecto">
+        <img src="/img/LLM.png" alt="Captura del Analizador de Datos " loading="lazy">
+      </div>
+      <div class="contenido-proyecto">
+        <h3>Analizador de Datos</h3>
+        <p>Herramienta que permite analizar datos CSV con gráficas interactivas usando PowerBi.</p>
+        <div class="tecnologias">
+          <span>PowerBi</span>
+          <span>Astro</span>
+          <span>CSS</span>
+        </div>
+        <a href="https://power-bi-web.vercel.app" class="boton-ver" target="_blank">Ver demo</a>
+      </div>
     </div>
+
+    <!-- Proyecto 3 -->
     <div class="proyecto">
-      <h3>Analizador de Datos</h3>
-      <p>Herramienta que permite analizar datos CSV con gráficas interactivas usando D3.js.</p>
+      <div class="imagen-proyecto">
+        <img src="/img/portafolio2.png" alt="Captura del Portafolio Web" loading="lazy">
+      </div>
+      <div class="contenido-proyecto">
+        <h3>Portafolio Web</h3>
+        <p>Este portafolio como muestra de mis habilidades en HTML, CSS y JavaScript puro.</p>
+        <div class="tecnologias">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+        </div>
+        <a href="https://github.com/JorgeOrtiz17/Portafolio.git " class="boton-ver" target="_blank">Ver código</a>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
  
   <section id="contacto">
